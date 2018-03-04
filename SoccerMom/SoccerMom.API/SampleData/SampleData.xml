@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SoccerMom>
+<Team Name="TestTeam">
+  <Players>
+    <Player Name="John" PlayerNumber="3" PlayerPhone="1234567" PlayerEmail="test@test.com">
+      <TimePlayed totalOnField="01:00" totalOffField="02:00" totalInGoal="01:00"></TimePlayed>
+      <GamesPlayed>
+        <playedGame GameNumber="1" GameDate="1-1-01"></playedGame></GamesPlayed>
+      <Guardians>
+        <Guardian Primary="1" Name="Mom" Email="mom@mom.com" Mobile="02020202020"></Guardian>
+        <Guardian Primary="0" Name="Dad" Email="dad@dad.com" Mobile="01010101010"></Guardian>  
+    </Guardians>
+    </Player>
+  </Players>
+  <Games>
+    <Game Date="01-01-01 14:30" Location="Jacka Park" vs="Seaforth Gits">
+      <Communications>
+        <SMS to="AllGuardians" Type="GameComing" Send="1"></SMS>
+      </Communications>
+      <players>
+        <Player Name="John" Status="1" Position="D">
+          <StartTime>01:00</StartTime>
+          <EndTime>02:00</EndTime>
+        </Player>
+      </players>
+    </Game>
+  </Games>
+</Team>
+</SoccerMom>
